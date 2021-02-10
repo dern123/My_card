@@ -26,8 +26,8 @@ import { default as Modal } from './tables/_modal.js';
 import { default as Visit } from './visits/visit.js';
 import { btnSearch } from './filter/_filter.js';
 
-// import { BASE_PATH, TABLES } from './fetch/_fetchApi.js';
-// import { GetData } from './fetch/_fetchApi.js';
+import { BASE_PATH, TABLES } from './fetch/_fetchApi.js';
+import { GetData } from './fetch/_fetchApi.js';
 
 class Sign {
 	constructor() {
